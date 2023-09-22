@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header {
+    @apply  fixed w-full py-4 px-6 
+}
+.header-inner {
+    @apply flex bg-[--primary-color] rounded-[30px] text-[--second-color] border py-4 px-8  justify-between
+}
+
+.header-inner nav{
+    @apply flex gap-10
+}
+
+

@@ -1,15 +1,25 @@
 import { Link } from "react-router-dom"
+import "./NavBar.css"
+
 
 function NavBar() {
     return(
-    <header>
+    <header className="header">
+        <div className="header-inner">
+
         <div id="logo">Logo</div>
-        <nav className="navbar">
+        <nav >
             <Link to="/Home">Home</Link>
             <Link to="/services">Services</Link>
             <Link to="/about-us">About us</Link>
             <Link to="/contact-us">Contact us</Link>
         </nav>
+        <div>
+            <Link to='#'>
+            Sign Up
+            </Link>
+        </div>
+        </div>
     </header>
     )
 }

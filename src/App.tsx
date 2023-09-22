@@ -1,18 +1,16 @@
 import './App.css'
+import Footer from './Component/Footer/Footer';
 import Main from './Component/Main/Main';
+import NavBar from './Component/NavBar/NavBar';
 
 
 function App() {
-  const x = 10 
-  console.log('====================================');
-  console.log(x);
-  console.log('====================================');
-  
+
   return (
     <>
-
+      <NavBar/>
       <Main/>
-
+      <Footer/>
     </>
   )
 }
